@@ -171,7 +171,7 @@ public class FrameTest extends JFrame {
                                     as a parameter and now it plots two graph lines in two different colors
                                     using two different arrays.
                                     Hope that's clear :p
-                                     -- Ratnesh
+                                
                                 */
                             DrawGraph.createAndShowGui( cases1,deaths1);
 
@@ -184,7 +184,7 @@ public class FrameTest extends JFrame {
 
                     // using array sizes parsing it adding to handcopy arrays
                     // later used in prediction
-                    // - Ratnesh
+                  
                     int pr = cases1.size() -1; int pr_death = deaths1.size() -1;
                     int pr1 = pr -31 ;      int pr1_death = pr_death -31 ;
 
@@ -242,12 +242,12 @@ public class FrameTest extends JFrame {
                         revArrayList_death.add(predictionOf_death.get(i));
                     }
 
-                    // getting the coefficients of deaths and cases - Ratnesh
+                    // getting the coefficients of deaths and cases
                     coeff = getPrediction(revArrayList); coeff_death = getPrediction(revArrayList);
                     // System.out.println(coeff); System.out.println(coeff_death);
 
 
-                    /// cases prediction ADDED to prediction array  - Ratnesh
+                    /// cases prediction ADDED to prediction array  
                     for (int i = 0; i < 42; i++) {
                         lastcase = revArrayList.get(revArrayList.size() -1 )  ; //gets the last element from the array
 
@@ -265,7 +265,7 @@ public class FrameTest extends JFrame {
 
 
 
-                    /// death prediction ADDED to prediction array death - Ratnesh
+                    /// death prediction ADDED to prediction array death 
                     for (int i = 0; i < 42; i++) {
                         lastcase_death = revArrayList_death.get(revArrayList_death.size() -1 )  ; //gets the last element from the array
 
