@@ -119,7 +119,7 @@ public class DrawGraph extends JPanel {
         g2.setColor(GRAPH_COLOR);
         g2.setStroke(GRAPH_STROKE);
 
-        // this plots the cases graph in green color ( graph_color ) -- Ratnesh
+        // this plots the cases graph in green color ( graph_color ) 
         for (
                 int i = 0; i < graphPoints.size() - 1; i++) {
             int two_weeks =FrameTest.sizeofrealcases + 13;
@@ -148,8 +148,8 @@ public class DrawGraph extends JPanel {
             }
         }
 
-        g2.setColor(Color.yellow); // deaths graph color   -- Ratnesh
-        // this plots the whole death graph   -- Ratnesh
+        g2.setColor(Color.yellow); // deaths graph color   
+        // this plots the whole death graph  
 
 
         for (
